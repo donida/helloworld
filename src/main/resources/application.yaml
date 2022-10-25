@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    openservicebroker:
+      catalog:
+        services:
+          - id: hello-world-id
+            name: hello-world
+            description: A simple hello world
+            bindable: true
+            tags:
+              - example
+            plans:
+              - id: simple-plan
+                name: standard
+                description: A simple plan
